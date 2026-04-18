@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="BookingCom_FinalProject_Suite" verbose="2" parallel="none">
+
+
+    <test name="HomepageTest">
+        <classes>
+            <class name="com.booking.tests.HomepageTest"/>
+        </classes>
+    </test>
+
+    <test name="DatePickerTest">
+        <classes>
+            <class name="com.booking.tests.DatePickerTest"/>
+        </classes>
+    </test>
+
+    <test name="GuestRoomTest">
+        <classes>
+            <class name="com.booking.tests.GuestRoomTest"/>
+        </classes>
+    </test>
+
+    <test name="LoginTest">
+        <classes>
+            <class name="com.booking.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="PropertyDetailTest">
+        <classes>
+            <class name="com.booking.tests.PropertyDetailTest"/>
+        </classes>
+    </test>
+
+
+    <test name="FilterTest">
+        <classes>
+            <class name="com.booking.tests.FilterTest"/>
+        </classes>
+    </test>
+
+    <test name="SearchTest">
+        <classes>
+            <class name="com.booking.tests.SearchTest"/>
+        </classes>
+    </test>
+
+    <test name="UINavigationTest">
+        <classes>
+            <class name="com.booking.tests.UINavigationTest"/>
+        </classes>
+    </test>
+
+    <test name="LanguagePickerTest">
+        <classes>
+            <class name="com.booking.tests.LanguagePickerTest"/>
+        </classes>
+    </test>
+
+</suite>
